@@ -1,0 +1,68 @@
+*{
+  padding: 0px;
+  margin: 0px;
+
+}
+body{
+background-repeat: no-repeat;
+background-size: cover;
+/* background-color: #90c1ff */
+
+;}
+#ommm {
+  width: 49vw;
+  position: absolute;
+  z-index: -1;
+  margin: 20vh 24vw;
+  height: 56vh;
+}
+.main{
+  position: absolute;
+  left: 34vw;
+  top: 33vh;
+}
+
+
+#inputbox {
+
+    font-size: x-large;
+    width: 39vw;
+    height: 7vh;
+    position: absolute;
+    top: -8vh;
+    left: -6vw;
+    border-radius: 2px;
+    border: none;
+    background: #90c1ff;
+    text-align: center;
+
+}
+button {
+  width: 7vw;
+  height: 7vh;
+  font-size: large;
+  /* font-family: emoji;/ */
+  margin: 1px;
+  border: 0px;
+  background-color: rgb(137, 178, 255);
+  border-radius: 5px;
+  
+}
+#clearall{
+  width: 28.6vw;
+  border-radius: 10px;
+  border: 0px;
+  background-color: rgb(255, 11, 105);
+}
+button:active {
+  transform: scale(0.98);
+  /* Scaling button to 0.98 to its original size */
+  box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+  /* Lowering the shadow */
+}
+#oppp{
+  position: absolute;
+  z-index: -2;
+  width: 100%;
+  height: 100%;
+}
